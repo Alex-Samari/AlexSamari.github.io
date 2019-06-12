@@ -13,6 +13,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  text-transform: capitalize;
 }
 
 .header-content {
@@ -48,7 +49,6 @@ header {
   text-align: center;
   display: flex;
   font-size: 3vh;
-  text-transform: capitalize;
 }
 
 .header-social {
