@@ -1,0 +1,7 @@
+/* Footer styles start here */
+
+footer {
+    background-color: rgb(221, 199, 159);
+    grid-area: 4 / first-line/span 1 / last-line;
+  }
+  /* Footer styles end here */
