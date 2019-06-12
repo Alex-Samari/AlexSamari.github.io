@@ -1,5 +1,4 @@
 /* Responsive design start here */
-
 @media screen and (min-width: 800px) {
   .container {
     grid-template-columns: [first-column] 5vw [line2] auto [line3] 5vw [last-column];
@@ -14,6 +13,7 @@
     padding: 10px 5vw;
     background-color: unset;
     position: absolute;
+    font-size: 18px;
   }
 
   .sticky {
@@ -24,7 +24,7 @@
   }
 
   .nav-bar {
-    /* the following lines are not from my video, but add Edge support */
+    /* Edge support begins here */
     position: relative;
     text-align: left;
     transition: none;
@@ -32,7 +32,7 @@
     background: none;
     top: 0;
     left: 0;
-    /* end Edge support stuff */
+    /* Edge support ends here */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -65,7 +65,7 @@
     content: '';
     display: block;
     height: 4px;
-    background: #b4869f;
+    background: var(--anchor-link-color);
     border-radius: 3px;
     position: absolute;
     top: -0.75em;
