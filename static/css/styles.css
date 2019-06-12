@@ -13,6 +13,11 @@
 @import url(./responsive.css);
 /* External css files end here */
 
+/* Global Varibales */
+:root {
+  --link-color: #a63a50;
+}
+
 /* Global styles start here  */
 p,
 h1,
@@ -21,12 +26,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans ', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul,
 li {
-  font-family: 'Open Sans', sans-serif;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -42,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: #b4869f;
+  color: var(--link-color);
 }
 /* Global styles end here  */
 

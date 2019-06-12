@@ -65,7 +65,7 @@
     content: '';
     display: block;
     height: 4px;
-    background: var(--anchor-link-color);
+    background: var(--link-color);
     border-radius: 3px;
     position: absolute;
     top: -0.75em;
