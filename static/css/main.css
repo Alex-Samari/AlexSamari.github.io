@@ -91,7 +91,7 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0.5em;
-  /* max-width: 4em; */
+  max-width: 64px;
 }
 
 .skill-icon span {
