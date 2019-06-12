@@ -9,6 +9,7 @@
   top: 0;
   width: 100%;
   height: 8vh;
+  text-transform: capitalize;
 }
 
 .nav-bar {
