@@ -1,4 +1,4 @@
-/* External css files */
+/* External css files start here */
 @import url(./sanitize.css);
 @import url(./fonts.css);
 @import url(./devicon.css);
@@ -7,12 +7,13 @@
 @import url(./nav.css);
 @import url(./main.css);
 @import url(./footer.css);
+@import url(./button.css);
+@import url(./icon.css);
+/* responsive designs */
 @import url(./responsive.css);
+/* External css files end here */
 
 /* Global styles start here  */
-body {
-  line-height: 1.5;
-}
 p,
 h1,
 h2,
@@ -21,8 +22,6 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans ', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  /* margin: 0;
-  padding: 0; */
 }
 
 ul,
@@ -37,6 +36,9 @@ a {
   text-decoration: none;
   color: #293347;
   text-transform: capitalize;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  font-weight: 400;
 }
 
 a:hover {
