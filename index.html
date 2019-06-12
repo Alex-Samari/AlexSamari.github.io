@@ -7,6 +7,7 @@
     <title>Alex Samari</title>
     <link rel="shortcut icon" href="./static/img/me-and-the-blackboard.jpg" />
     <link rel="stylesheet" href="./static/css/styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
     <script src="./static/scripts/sticky-nav.js"></script>
   </head>
 
@@ -61,21 +62,22 @@
             Software & Web Developer, DevOps enthusiast
           </p>
           <p>
-            Currently working on a dynamic web application using Angular
+            Currently working on a dynamic web application using Angular 7 &
             material design
           </p>
 
-          <a
-            class="contact-me"
-            href="mailto:alexsamarim@gmail.com"
-            target="_blank"
-            ><img
-              class="contact-me-img"
-              src="./static/svg/mail.svg"
-              alt="email"
-            />
-            <p>Get In Touch</p>
-          </a>
+          <p>
+            <a
+              class="button is-primary is-outlined is-rounded is-medium"
+              href="mailto:alexsamarim@gmail.com"
+              target="_blank"
+            >
+              <span class="button-icon">
+                <i data-feather="mail"></i>
+              </span>
+              <span>Get In Touch</span>
+            </a>
+          </p>
         </div>
       </header>
 
@@ -209,7 +211,7 @@
 
         <section id="projects" class="project-container">
           <div class="project-sub-container">
-            <h1>My Work</h1>
+            <h1>My Projects</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -260,5 +262,8 @@
         <h2>Your content would go here</h2>
       </footer>
     </div>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
