@@ -97,6 +97,7 @@ main {
 .skill-icon span {
   font-weight: 500;
   font-size: small;
+  white-space: nowrap;
 }
 
 .list-title {
